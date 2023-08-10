@@ -1,0 +1,447 @@
+#rectangle1{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background: red;
+    top: 250px;
+    left: 650px;
+    animation: rect1 10s infinite;
+}
+
+@keyframes rect1{
+    0% {visibility: visible;}
+    1% {visibility: visible;}
+    2% {visibility: hidden;}
+    12% {visibility: hidden;}
+    13% {visibility: visible;}
+    14% {visibility: visible;}
+    15% {visibility: hidden;}
+    21% {visibility: hidden;}
+    22% {visibility: visible;}
+    23% {visibility: visible;}
+    24% {visibility: hidden;}
+    29% {visibility: visible;}
+    30% {visibility: hidden;}
+    37% {visibility: hidden;}
+    38% {visibility: visible;}
+    39% {visibility: visible;}
+    40% {visibility: hidden;}
+    48% {visibility: visible;}
+    49% {visibility: hidden;}
+    51% {visibility: visible;}
+    52% {visibility: hidden;}
+    60% {visibility: hidden;}
+    61% {visibility: visible;}
+    62% {visibility: visible;}
+    63% {visibility: hidden;}
+    75% {visibility: visible;}
+    76% {visibility: hidden;}
+    81% {visibility: visible;}
+    82% {visibility: hidden;}
+    91% {visibility: visible;}
+    92% {visibility: hidden;}
+    100% {visibility: hidden;}
+}
+
+
+#rectangle2{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    height: 200px;
+    width: 200px;
+    background: blue;
+    animation: rect2 10s infinite;
+}
+
+@keyframes rect2{
+    0% {visibility: hidden;}
+    2% {visibility: visible;}
+    3% {visibility: hidden;}
+    11% {visibility: visible;}
+    12% {visibility: hidden;}
+    17% {visibility: visible;}
+    18% {visibility: hidden;}
+    24% {visibility: hidden;}
+    25% {visibility: visible;}
+    26% {visibility: visible;}
+    27% {visibility: hidden;}
+    37% {visibility: visible;}
+    38% {visibility: hidden;}
+    41% {visibility: hidden;}
+    42% {visibility: visible;}
+    43% {visibility: visible;}
+    44% {visibility: hidden;}
+    58% {visibility: hidden;}
+    59% {visibility: visible;}
+    60% {visibility: visible;}
+    61% {visibility: hidden;}
+    70% {visibility: hidden;}
+    71% {visibility: visible;}
+    72% {visibility: visible;}
+    73% {visibility: hidden;}
+    87% {visibility: visible;}
+    88% {visibility: hidden;}
+    89% {visibility: hidden;}
+    90% {visibility: visible;}
+    91% {visibility: visible;}
+    92% {visibility: hidden;}
+    99% {visibility: visible;}
+    100% {visibility: hidden;}
+}
+
+#rectangle3{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    height: 200px;
+    width: 200px;
+    background: green;
+    animation: rect3 10s infinite;
+}
+
+@keyframes rect3{
+    0% {visibility: hidden;}
+    3% {visibility: hidden;}
+    4% {visibility: visible;}
+    5% {visibility: visible;}
+    6% {visibility: hidden;}
+    9% {visibility: visible;}
+    10% {visibility: hidden;}
+    17% {visibility: hidden;}
+    18% {visibility: visible;}
+    19% {visibility: visible;}
+    20% {visibility: hidden;}
+    27% {visibility: visible;}
+    28% {visibility: hidden;}
+    32% {visibility: hidden;}
+    33% {visibility: visible;}
+    34% {visibility: visible;}
+    35% {visibility: hidden;}
+    38% {visibility: visible;}
+    39% {visibility: hidden;}
+    46% {visibility: visible;}
+    47% {visibility: hidden;}
+    56% {visibility: hidden;}
+    57% {visibility: visible;}
+    58% {visibility: visible;}
+    59% {visibility: hidden;}
+    69% {visibility: visible;}
+    70% {visibility: hidden;}
+    83% {visibility: hidden;}
+    84% {visibility: visible;}
+    85% {visibility: visible;}
+    86% {visibility: hidden;}
+    96% {visibility: visible;}
+    97% {visibility: hidden;}
+    100% {visibility: hidden;}
+}
+
+#rectangle4{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    height: 200px;
+    width: 200px;
+    background: yellow;
+    animation: rect4 10s infinite;
+}
+
+@keyframes rect4{
+    0% {visibility: hidden;}
+    6% {visibility: hidden;}
+    7% {visibility: visible;}
+    8% {visibility: visible;}
+    9% {visibility: hidden;}
+    16% {visibility: visible;}
+    17% {visibility: hidden;}
+    22% {visibility: hidden;}
+    23% {visibility: visible;}
+    24% {visibility: visible;}
+    25% {visibility: hidden;}
+    34% {visibility: visible;}
+    35% {visibility: hidden;}
+    43% {visibility: hidden;}
+    44% {visibility: visible;}
+    45% {visibility: visible;}
+    46% {visibility: hidden;}
+    54% {visibility: visible;}
+    55% {visibility: hidden;}
+    60% {visibility: visible;}
+    61% {visibility: hidden;}
+    63% {visibility: hidden;}
+    64% {visibility: visible;}
+    65% {visibility: visible;}
+    66% {visibility: hidden;}
+    70% {visibility: visible;}
+    71% {visibility: hidden;}
+    85% {visibility: hidden;}
+    86% {visibility: visible;}
+    87% {visibility: visible;}
+    88% {visibility: hidden;}
+    97% {visibility: visible;}
+    98% {visibility: hidden;}
+    100% {visibility: hidden;}
+}
+
+#rectangle5{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    height: 200px;
+    width: 200px;
+    background: black;
+    animation: rect5 10s infinite;
+}
+
+@keyframes rect5{
+    0% {visibility: hidden;}
+    2% {visibility: hidden;}
+    3% {visibility: visible;}
+    4% {visibility: visible;}
+    5% {visibility: hidden;}
+    13% {visibility: hidden;}
+    14% {visibility: visible;}
+    15% {visibility: visible;}
+    16% {visibility: hidden;}
+    21% {visibility: visible;}
+    22% {visibility: hidden;}
+    31% {visibility: visible;}
+    32% {visibility: hidden;}
+    46% {visibility: hidden;}
+    47% {visibility: visible;}
+    48% {visibility: visible;}
+    49% {visibility: hidden;}
+    55% {visibility: visible;}
+    56% {visibility: hidden;}
+    58% {visibility: visible;}
+    59% {visibility: hidden;}
+    66% {visibility: visible;}
+    67% {visibility: hidden;}
+    76% {visibility: hidden;}
+    77% {visibility: visible;}
+    78% {visibility: visible;}
+    79% {visibility: hidden;}
+    89% {visibility: visible;}
+    90% {visibility: hidden;}
+    94% {visibility: hidden;}
+    95% {visibility: visible;}
+    96% {visibility: visible;}
+    97% {visibility: hidden;}
+    100% {visibility: hidden;}
+}
+
+#rectangle6{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    height: 200px;
+    width: 200px;
+    background: purple;
+    animation: rect6 10s infinite;
+}
+
+@keyframes rect6{
+    0% {visibility: hidden;}
+    6% {visibility: visible;}
+    7% {visibility: hidden;}
+    15% {visibility: visible;}
+    16% {visibility: hidden;}
+    26% {visibility: visible;}
+    27% {visibility: hidden;}
+    29% {visibility: hidden;}
+    30% {visibility: visible;}
+    31% {visibility: visible;}
+    32% {visibility: hidden;}
+    40% {visibility: visible;}
+    41% {visibility: hidden;}
+    51% {visibility: hidden;}
+    52% {visibility: visible;}
+    53% {visibility: visible;}
+    54% {visibility: hidden;}
+    64% {visibility: hidden;}
+    65% {visibility: visible;}
+    66% {visibility: visible;}
+    67% {visibility: hidden;}
+    72% {visibility: visible;}
+    73% {visibility: hidden;}
+    81% {visibility: hidden;}
+    82% {visibility: visible;}
+    83% {visibility: visible;}
+    84% {visibility: hidden;}
+    97% {visibility: hidden;}
+    98% {visibility: visible;}
+    99% {visibility: visible;}
+    100% {visibility: hidden;}
+}
+
+#rectangle7{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    height: 200px;
+    width: 200px;
+    background: pink;
+    animation: rect7 10s infinite;
+}
+
+@keyframes rect7{
+    0% {visibility: hidden;}
+    7% {visibility: hidden;}
+    8% {visibility: visible;}
+    9% {visibility: visible;}
+    10% {visibility: hidden;}
+    19% {visibility: visible;}
+    20% {visibility: hidden;}
+    27% {visibility: hidden;}
+    28% {visibility: visible;}
+    29% {visibility: visible;}
+    30% {visibility: hidden;}
+    35% {visibility: visible;}
+    36% {visibility: hidden;}
+    48% {visibility: hidden;}
+    49% {visibility: visible;}
+    50% {visibility: visible;}
+    51% {visibility: hidden;}
+    62% {visibility: visible;}
+    63% {visibility: hidden;}
+    72% {visibility: hidden;}
+    73% {visibility: visible;}
+    74% {visibility: visible;}
+    75% {visibility: hidden;}
+    79% {visibility: visible;}
+    80% {visibility: hidden;}
+    85% {visibility: visible;}
+    86% {visibility: hidden;}
+    93% {visibility: hidden;}
+    94% {visibility: visible;}
+    95% {visibility: visible;}
+    96% {visibility: hidden;}
+    100% {visibility: visible;}
+}
+
+#rectangle8{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    height: 200px;
+    width: 200px;
+    background: tan;
+    animation: rect8 10s infinite;
+}
+
+@keyframes rect8{
+    0% {visibility: hidden;}
+    5% {visibility: visible;}
+    6% {visibility: hidden;}
+    9% {visibility: hidden;}
+    10% {visibility: visible;}
+    11% {visibility: visible;}
+    12% {visibility: hidden;}
+    24% {visibility: visible;}
+    25% {visibility: hidden;}
+    31% {visibility: hidden;}
+    32% {visibility: visible;}
+    33% {visibility: visible;}
+    34% {visibility: hidden;}
+    43% {visibility: visible;}
+    44% {visibility: hidden;}
+    53% {visibility: visible;}
+    54% {visibility: hidden;}
+    55% {visibility: hidden;}
+    56% {visibility: visible;}
+    57% {visibility: visible;}
+    58% {visibility: hidden;}
+    68% {visibility: visible;}
+    69% {visibility: hidden;}
+    73% {visibility: hidden;}
+    74% {visibility: visible;}
+    75% {visibility: visible;}
+    76% {visibility: hidden;}
+    82% {visibility: hidden;}
+    83% {visibility: visible;}
+    84% {visibility: visible;}
+    85% {visibility: hidden;}
+    93% {visibility: visible;}
+    94% {visibility: hidden;}
+    100% {visibility: hidden;}
+}
+
+#rectangle9{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    height: 200px;
+    width: 200px;
+    background: brown;
+    animation: rect9 10s infinite;
+}
+
+@keyframes rect9{
+    0% {visibility: hidden;}
+    1% {visibility: visible;}
+    2% {visibility: hidden;}
+    11% {visibility: hidden;}
+    12% {visibility: visible;}
+    13% {visibility: visible;}
+    14% {visibility: hidden;}
+    26% {visibility: visible;}
+    27% {visibility: hidden;}
+    35% {visibility: hidden;}
+    36% {visibility: visible;}
+    37% {visibility: visible;}
+    38% {visibility: hidden;}
+    45% {visibility: visible;}
+    46% {visibility: hidden;}
+    49% {visibility: hidden;}
+    50% {visibility: visible;}
+    51% {visibility: visible;}
+    52% {visibility: hidden;}
+    66% {visibility: hidden;}
+    67% {visibility: visible;}
+    68% {visibility: visible;}
+    69% {visibility: hidden;}
+    76% {visibility: visible;}
+    77% {visibility: hidden;}
+    80% {visibility: visible;}
+    81% {visibility: hidden;}
+    91% {visibility: hidden;}
+    92% {visibility: visible;}
+    93% {visibility: visible;}
+    94% {visibility: hidden;}
+    100% {visibility: hidden;}
+}
+
+#rectangle10{
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    height: 200px;
+    width: 200px;
+    background: lightcoral;
+    animation: rect10 10s infinite;
+}
+
+@keyframes rect10{
+    0% {visibility: hidden;}
+    19% {visibility: hidden;}
+    20% {visibility: visible;}
+    21% {visibility: hidden;}
+    22% {visibility: hidden;}
+    40% {visibility: hidden;}
+    41% {visibility: visible;}
+    42% {visibility: hidden;}
+    43% {visibility: hidden;}
+    62% {visibility: hidden;}
+    63% {visibility: visible;}
+    64% {visibility: hidden;}
+    65% {visibility: hidden;}
+    78% {visibility: visible;}
+    79% {visibility: hidden;}
+    80% {visibility: hidden;}
+    87% {visibility: hidden;}
+    88% {visibility: visible;}
+    89% {visibility: hidden;}
+    90% {visibility: hidden;}
+    100% {visibility: hidden;}
+}

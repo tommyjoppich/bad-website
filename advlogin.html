@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styleadvlogin.css" class="stylesheet">
+    <link rel="icon" type="image/x-icon" href="advloginfav.ico">
+    <title>Continue Logging in!</title>
+</head>
+<body>
+    <button onclick="window.location.href = 'home.html';"class="btn" type="button">go back</button>
+    <div class="container">
+        <form action="">
+            <h1>login info</h1>
+            <div class="form-group">
+                <label for="">first name*</label>
+                <input type="password" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="">mother's maiden name*</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="">ssn*</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="">name of your first pet*</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="">credit card #*</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <p>* = required</p>
+            <button onclick="window.location.href = 'index.html';" class="btn" type="button">Submit info!</button>
+        </form>
+    </div>
+    <div id="rectangle"></div>
+
+    <script>
+        document.querySelector('#rectangle').addEventListener('mouseover', () => {
+            window.location.href = 'home.html';
+        })
+    </script>
+</body>
+</html>

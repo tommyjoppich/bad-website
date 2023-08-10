@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&family=Slackey&display=swap');
+
+body{
+    font-family: 'Slackey', cursive;
+    background-color: rgb(231,214,160);
+    border: solid rgb(94,64,13);
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: rgb(109,35,26);
+    text-transform: uppercase;
+}
+
+.column{
+    width: 50%;
+    float: left;
+    font-size: 40px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#back{
+    z-index: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#kuddly{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}

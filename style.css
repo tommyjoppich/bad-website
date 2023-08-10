@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(180deg, #FF6700, black, #FFFF33);
+}
+
+::selection{
+    background: green;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    cursor: pointer;
+}
+section a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    min-width: 90vh;
+    background: #111;
+    overflow: visible;
+}
+
+section .text{
+    position: relative;
+    color: pink;
+    margin: 40px;
+    max-width: 800px;
+    user-select: none;
+    font-size: 1.5em;
+}
+
+h1{
+    color: pink;
+}
+
+section .text span{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+section .text span.active{
+    animation: smoke 2s linear forwards;
+    transform-origin: bottom;
+}
+
+@keyframes smoke{
+    0%{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0) translateY(0) rotate(0deg) scale(1);
+    }
+    50%{
+        opacity: 1;
+        pointer-events: none;
+    }
+    100%{
+        opacity: 0;
+        filter: blur(20px);
+        transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4);
+    }
+}
+
+#js_timer{
+    text-align: center;
+}
+#timer{
+    background: #fff;
+    color: #000;
+    width: 100px;
+    margin: 50px auto;
+}
+button{
+    background: #fff;
+}

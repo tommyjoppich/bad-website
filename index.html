@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" class="stylesheet">
+    <link rel="icon" type="image/x-icon" href="indexfav.ico">
+    <title>Best UX Ever!</title>
+</head>
+<body>
+    <button onclick="window.location.href = 'advlogin.html';"class="btn" type="button">go back</button>
+    <h1>Go through here to get to the main page --></h1>
+    <section>
+        <a href="#" class="text">
+            Click_here_to_go_to_the_main_page!
+        </a>
+    </section>
+    <div id="js_timer">
+        <div id="timer">
+            00:59
+        </div>
+        <button>pause</button>
+        <button onclick="window.location.href = 'namepage.html';">world destruction</button>
+    </div>
+    <script>
+        const text = document.querySelector('.text');
+        text.innerHTML = text.textContent.replace(/\S/g,"<span>$&</span>");
+         //add active class on hovered span tag
+        const letters = document.querySelectorAll('span');
+        for(let i = 0; i < letters.length; i++){
+            letters[i].addEventListener("mouseover", function(){
+                letters[i].classList.add('active');
+            })
+        }
+
+        var timer;
+        var e = document.getElementById('timer');
+        (function (){
+            var sec = 59;
+            timer = setInterval(()=>{
+                e.innerHTML = '00: ' + sec;
+                sec--;
+            }, 1000)
+        })()
+
+    </script>
+</body>
+</html>
